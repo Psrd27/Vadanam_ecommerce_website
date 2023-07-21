@@ -40,3 +40,29 @@ export const categories=[
     title:"SHAMPOO",
     },
 ];
+
+export const popularProducts=[{
+    id:1,
+    img:"https://img.freepik.com/free-photo/flat-lay-soap-plants-arrangement_23-2148897628.jpg?w=740&t=st=1689878129~exp=1689878729~hmac=1642a87e77c37681e50f3d0f2d0f5eed9d71953315b1319a5713b54b2266762e",
+    title:"Name of the Product",
+    desc:"A brief description about it",
+},
+{
+    id:2,
+    img:"https://img.freepik.com/free-photo/flat-lay-soap-plants-arrangement_23-2148897628.jpg?w=740&t=st=1689878129~exp=1689878729~hmac=1642a87e77c37681e50f3d0f2d0f5eed9d71953315b1319a5713b54b2266762e",
+    title:"ABC",
+    desc:"xyz",
+},
+{
+    id:3,
+    img:"https://img.freepik.com/free-photo/flat-lay-soap-plants-arrangement_23-2148897628.jpg?w=740&t=st=1689878129~exp=1689878729~hmac=1642a87e77c37681e50f3d0f2d0f5eed9d71953315b1319a5713b54b2266762e",
+    title:"ABC",
+    desc:"xyz",
+},
+{
+    id:4,
+    img:"https://img.freepik.com/free-photo/flat-lay-soap-plants-arrangement_23-2148897628.jpg?w=740&t=st=1689878129~exp=1689878729~hmac=1642a87e77c37681e50f3d0f2d0f5eed9d71953315b1319a5713b54b2266762e",
+    title:"ABC",
+    desc:"xyz",
+},
+]

@@ -9,6 +9,9 @@ const Container=styled.div`
     display:flex;
     position: relative;
     overflow: hidden;
+    border:0;
+    margin-top: 0;
+    background-color: black;
 `;
 const Arrow=styled.div`
     width: 60px;
@@ -94,7 +97,7 @@ const Features = () => {
     </Arrow> */}
     <Wrapper slideIndex={slideIndex}>
         {sliderItems.map((item) =>(
-        <Slide bg={item.bg}>
+        <Slide bg={item.bg} key={item.id}>
         <ImageContainer>
             <Image src={item.img}></Image>
         </ImageContainer>

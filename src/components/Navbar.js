@@ -3,13 +3,16 @@ import { styled } from 'styled-components'
 // import { MenuItem } from '@mui/material'
 
 const Container =  styled.div`
-    height: 60px;
+    height: 80px;
+    background-color: #f5e5db;
+
 `
 const Wrapper = styled.div`
     padding: 5px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 0;
 `
 const Left =styled.div`
     flex:1;
