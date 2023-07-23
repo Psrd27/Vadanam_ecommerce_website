@@ -6,15 +6,14 @@ position: relative;
     margin: 5px;
     min-width: 280px;
     height: 500px;
-    background-color: Red;
+    background-color: #E1E5EA;
     align-items: center;
     justify-content: center;
 `;
 
 const Circle=styled.div``;
 const Image=styled.img`
-align-items: center;
-justify-content: center;
+
 opacity: 1;
   display: block;
   min-width: 280px;

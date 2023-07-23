@@ -1,6 +1,7 @@
 import React from 'react'
 import { styled } from 'styled-components'
-// import { MenuItem } from '@mui/material'
+import {animateScroll as scroll } from "react-scroll";
+// import MyImage from "./src/pics/vadanamlogo.jpg";
 
 const Container =  styled.div`
     height: 80px;
@@ -19,6 +20,7 @@ const Left =styled.div`
     display: flex;
     align-items: center;
 `
+const Img=styled.img``;
 const Title =styled.h1`
 `
 const Center =styled.div`
@@ -31,10 +33,12 @@ const Right =styled.div`
     align-items: center;
     justify-content: flex-end;
 `
- const MenuItem=styled.div`
+ const MenuItem=styled.button`
     font-size:140x;
     cursor:pointer;
     margin-left:25px;
+    background-color: transparent;
+    border: none;
  `
 const Navbar = () => {
   return (
@@ -42,12 +46,12 @@ const Navbar = () => {
     <Wrapper>
         <Left>Logo
         </Left>
-        <Center><Title>VADANAM.</Title></Center>
+        <Center><Title >VADANAM.</Title></Center>
         <Right>
-            <MenuItem>
+            <MenuItem onClick={() => scroll.scrollToBottom()}>
             ABOUT US
             </MenuItem>
-            <MenuItem>
+            <MenuItem onClick={() => scroll.scrollToBottom()}>
             CONTACT
             </MenuItem>
         </Right>

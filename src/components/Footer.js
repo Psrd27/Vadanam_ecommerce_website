@@ -4,7 +4,7 @@ import { styled } from 'styled-components'
 
 const Container = styled.div`
 display: flex;
-background-color: #F3D4D4;
+background-color: #f5e5db;
 `;
 const Left = styled.div`
 flex:1;
@@ -60,6 +60,8 @@ margin-bottom: 10px;`;
 const Right = styled.div`
 flex:1;
 padding: 20px;
+display: flex;
+flex-direction: column;
 
 `;
 const ContactItem=styled.div`
